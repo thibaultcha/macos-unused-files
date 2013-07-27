@@ -41,6 +41,6 @@ if [ -n "$days" ]
 
 		echo "$result"
 else
-	echo "Usage: $0 [-s] [–v] -d <n_days>"
+	echo "Usage: $0 [-sv] -d <n_days>"
 	exit 1
 fi
