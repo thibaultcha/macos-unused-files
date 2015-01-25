@@ -1,11 +1,11 @@
 # macos-unused-files
 
-Bash script to find unused files for a given period of time
+Bash script to find unused files for a given period of time on OS X.
 
 ## Usage
-1. Make sure the script is executable.
-2. `$ ./unused [-v] [-s] -d <n_days>`
+
+```bash
+$ ./unused [-v] [-s] -d <days>
+```
 
 Search interval is in days and total size is in bytes for the moment (size takes time).
-
-Export your $PATH variable to use it as a command.
